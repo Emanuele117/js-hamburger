@@ -9,5 +9,12 @@ apertura.addEventListener('click',
 )
 
 
+// chiusura del menu con il click
+var chiusura = document.querySelector('.close');
 
+chiusura.addEventListener('click',
+    function () {
+        document.querySelector(".hamburger-menu").style.display = "none";
+    }
+)
 
